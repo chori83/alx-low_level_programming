@@ -2,7 +2,6 @@
  *  * File: 9-print_comb.c
  *   * Auth: Chori
  */
-
 #include <stdio.h>
 
 /**
@@ -17,7 +16,7 @@ for (num = 0; num <= 9; num++)
 {				       putchar((num % 10) + '0');
 if (num == 9)
 continue;
-putchar(',');			
+putchar(',');
 putchar(' ');
 }
 putchar('\n');
