@@ -1,5 +1,4 @@
-fndef FILE_MAIN.H
-#define FILE_MAIN.H
+#include "main.h"
 
 char *_strcat(char *dest, char *src);
 
@@ -27,4 +26,4 @@ char *rot13(char *);
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 
-#endif
+endif
